@@ -1,7 +1,6 @@
 # Screeshoot
 
 Berikut screenshoot dari test yang diberikan.
-masih banyak kekurangan, dari beberapa fungsi yang berjalan baru hanya login.
 
 Saya ucapkan terima kasih dari test yang di berikan, karena saya belajar banyak hal baru dari test ini.
 
