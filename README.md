@@ -1,4 +1,4 @@
-# GScreeshoot
+# Screeshoot
 
 Berikut screenshoot dari test yang diberikan.
 masih banyak kekurangan, dari beberapa fungsi yang berjalan baru hanya login.
