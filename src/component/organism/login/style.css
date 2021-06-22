@@ -1,0 +1,176 @@
+p {
+    margin-bottom: 0;
+}
+.loginContainer{
+    background-image: url('../../asset/dUyCkp.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginCanvas{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.898);
+    height: 90vh;
+    padding: 20px;
+    color: white;
+    position: relative;
+    top: 30px;
+    border-radius: 6px;
+}
+.inputLoginFrom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.jobdescInput{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.jobdescInputForm{
+    width: 95%;
+}
+.jobdescInputForm input{
+    width: 100%;
+}
+.jobDescInputIcon{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.jobdescListInput{
+    background-color: #393534;
+    border-radius: 6px;
+    color: white;
+    margin-top: 10px;
+    width: 95%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.jobdescListInput p{
+    margin-right: 5px;
+}
+.genderForm {
+    width: 100%;
+    margin-top: 20px;
+}
+.genderForm select{
+    width: 100%;
+    border-radius: 6px;
+    background-color:#393534;
+    height: 35px;
+    color: white;
+}
+.genderForm select:focus{
+    border: none;
+    outline-style: none;
+    color: white;
+}
+.genderForm option{
+    border: none;
+    outline-style: none;
+    border-radius: 6px;
+    background-color:#393534;
+}
+.emailForm{
+    margin-top: 20px;
+    width: 100%;
+}
+.emailForm input {
+    width: 100%;
+}
+.buttonNext{
+    width: 100%;
+    height: 75px;
+    text-align: right;
+    margin-top: 25px;
+}
+.buttonNext button {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+/* STEP TWO */
+.loginCanvarStepTwo{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.inputLoginFromStepTwo{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+.inputLoginFromStepTwo .inputPassForm{
+    margin-left: 15px;
+}
+.inputLoginFromStepTwo label{
+    margin-left: 5px;
+}
+.textAreaStepTwo{
+    margin-top: 15px;
+    width: 95%;
+}
+.textAreaStepTwo label{
+    font-weight: 600;
+}
+.mobileNumberLogin{
+    width: 95%;
+}
+.mobileNumberLogin input{
+    width: 100% !important;
+    margin-top: 5px;
+}
+.buttonNextStepTwo{
+    width: 100%;
+    height: 75px;
+    text-align: right;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.buttonNextStepTwo button {
+    margin-top: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+.loginCanvasPerview{
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.898);
+        height: 90vh;
+        padding: 20px;
+        color: white;
+        position: relative;
+        top: 30px;
+        border-radius: 6px;
+}
+.prevTextJob{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #393534;
+    border-radius: 6px;
+    padding: 5px;
+}
+.prevText{
+    margin-top: 10px;
+}
+.prevText input{
+    width: 100%;
+    padding: 6px;
+}
+.registerFinish{
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

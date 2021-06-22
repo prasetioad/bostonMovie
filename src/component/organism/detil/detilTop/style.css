@@ -1,0 +1,92 @@
+.detilMainContainerTop{
+    background-image: linear-gradient(to right, black, grey, black);
+    color: #f4f4f4;
+    height: 80vh !important;
+}
+.detilContainerTop{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.detilTopLeft{
+    width: 30%;
+    padding: 5px;
+}
+.detilTopLeftImgWrapper{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85%;
+    text-align: center;
+}
+.detilTopLeftImgWrapper img {
+    height: 100%;
+}
+.detilTopLeftImgDesc{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.imgDetilProv{
+    width: 40px;
+    height: 40px;
+}
+.imgDetilProv img{
+    width: 100%;
+    border-radius: 8px;
+}
+.imgDetikDescription{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.imgDetikDescription p{
+    margin-bottom: 0;
+}
+.imgDetikDescription span {
+    font-weight: 600;
+}
+.detiTopRight{
+    width: 70%;
+}
+.detiTopRight{
+    height: 70%;
+    margin: auto;
+}
+.detilTopRightWrapper p{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.userScoreDetil{
+    display: flex;
+    justify-content: flex-start;
+}
+.userScoreDetilObjek{
+    margin-right: 10px;
+}
+.userScoreDetilObjek p{
+    margin-bottom: 0;
+}
+.detilMoto p{
+    color: grey;
+}
+.detilOverView span{
+ font-weight: 700;
+ font-size: 18px;
+}
+.detilOverView{
+    font-size: 14px;
+}
+.detilCreator span {
+    font-weight: 600;
+}
+.detilCreator p {
+    font-weight: 400;
+    font-size: 14px;
+}

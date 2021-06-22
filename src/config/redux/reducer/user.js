@@ -12,7 +12,7 @@ const initialState = {
 const userReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'FIRSTNAME':
-            console.log(state);
+            console.log('dari reducer', action.data);
             return {
                 ...state,
                 firstName: action.payload
@@ -59,7 +59,15 @@ const userReducer = (state = initialState, action) => {
                 ...state,
                 phone: action.payload
             }
+        case 'DELETE_JOBDESC':
+            const remove = state.jobDesc.splice(state.jobDesc.indexOf(action.payload),1)
+            return{
+                ...state,
+                jobDesc: state.jobDesc
+            }
         default:
             return state;
     }
 }
+
+export default userReducer

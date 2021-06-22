@@ -23,3 +23,6 @@ export const updateAddress = (data)=>(dispatch)=>{
 export const updatePhone = (data)=>(dispatch)=>{
     dispatch({type: "PHONE", payload: data})
 }
+export const deleteJobdesc = (data)=>(dispatch)=>{
+    dispatch({type: "DELETE_JOBDESC", payload: data})
+}

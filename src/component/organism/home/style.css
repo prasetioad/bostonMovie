@@ -1,0 +1,124 @@
+.topHomeWrapper{
+    width: 100%;
+    background-image: url('../../asset/dUyCkp.jpg');
+    height: 85vh;
+    background-size: cover;
+    color:#FF7314;
+    opacity: 1;
+}
+.topHomeBody{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 31, 31, 0.631);
+}
+.topHomeBodyText{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f4f4f4;
+}
+.topHomeBodyText span{
+    font-size:12 !important;
+    font-weight: 400;
+}
+
+.homePopularContainer{
+    display: flex;
+    justify-content: space-between;
+    color:  #f4f4f4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-top: 10px;
+    padding: 5px;
+   box-shadow : inset -5px 0 205px 0px #000000;    
+   margin-bottom: 10px;  
+   border-radius: 8px;
+}
+
+.homePopullarLeftItem{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+}
+.homePopularBody{
+    background-color: #FF7314;
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
+}
+.homePopularBody p {
+    margin-bottom: 0;
+}
+.homePopullarRightItem{
+    display: flex;
+    justify-content: flex-start;
+    width: 83%;
+    color: #f4f4f4;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.homePopullarRightItem::-webkit-scrollbar {
+    height: 10px;
+    border-radius: 6px;
+  }
+.homePopullarRightItem::-webkit-scrollbar-track {
+    background-color: #22211F;
+    border-radius: 6px;
+  }
+.homePopullarRightItem::-webkit-scrollbar-thumb {
+    background: #393534 ;
+    border-radius: 6px;
+  }
+.homePoppularRightCard{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 225px;
+    width: 180px;
+    margin: 5px;
+}
+.hprTop{
+    height: 225px;
+    width: 150px;
+}
+.hprTop img {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 6px;
+}
+.hprBot {
+    width: 80%;
+}
+/* TRAILER */
+
+.homePopularContainerTrail{
+    display: flex;
+    justify-content: space-between;
+    color:  #f4f4f4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-top: 10px;
+    padding: 5px;
+   box-shadow : inset -5px 0 205px 0px #000000;    
+   margin-bottom: 10px;  
+   border-radius: 8px;
+}
+.homePopullarLeftItemTrailer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+}

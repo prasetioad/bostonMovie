@@ -1,0 +1,24 @@
+.inputclas input:focus{
+    outline: none !important;
+    outline-style: none;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+.inputclas input{
+    outline: none !important;
+    outline-style: none;
+    border: none;
+    background-color: #393534;
+    color: white;
+    border-radius: 6px;
+    height: 35px;
+}
+.form-group textarea{
+    background-color: #393534;
+    color: white;
+}
+.form-group textarea:focus{
+    background-color: white;
+}
